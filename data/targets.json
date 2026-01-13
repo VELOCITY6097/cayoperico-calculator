@@ -1,0 +1,21 @@
+{
+  "bag_capacity": 1800,
+  "targets": {
+    "primary": [
+      { "name": "tequila", "label": "Sinsimito Tequila", "value": { "standard": 630000, "hard": 690000 }, "bonus_multiplier": 1.2 },
+      { "name": "ruby_necklace", "label": "Ruby Necklace", "value": { "standard": 700000, "hard": 770000 }, "bonus_multiplier": 1.1 },
+      { "name": "bearer_bonds", "label": "Bearer Bonds", "value": { "standard": 770000, "hard": 850000 }, "bonus_multiplier": 1.05 },
+      { "name": "pink_diamond", "label": "Pink Diamond", "value": { "standard": 1300000, "hard": 1430000 }, "bonus_multiplier": 1 },
+      { "name": "panther_statue", "label": "Panther Statue", "value": { "standard": 1900000, "hard": 2090000 }, "bonus_multiplier": 1 }
+    ],
+    "secondary": [
+      { "name": "gold", "label": "Gold", "value": { "min": 328333, "max": 333333 }, "full_table_units": 1200 },
+      { "name": "cocaine", "label": "Cocaine", "value": { "min": 198000, "max": 202500 }, "full_table_units": 900 },
+      { "name": "weed", "label": "Weed", "value": { "min": 130500, "max": 135000 }, "full_table_units": 675 },
+      { "name": "paintings", "label": "Paintings", "value": { "min": 157500, "max": 180000 }, "full_table_units": 900 },
+      { "name": "cash", "label": "Cash", "value": { "min": 78750, "max": 83250 }, "full_table_units": 450 }
+    ],
+    "office_safe": { "min": 20000, "max": 99000 }
+  },
+  "elite_challenge": { "standard": 50000, "hard": 100000 }
+}

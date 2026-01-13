@@ -1,7 +1,8 @@
 // --- CONFIGURATION FILE ---
 // Edit this file to update prices, weights, or images.
 
-const CONFIG = {
+// We attach to window to ensure visibility in modules
+window.CONFIG = {
     // Total capacity of one loot bag
     "bag_capacity": 1800, 
     
@@ -14,7 +15,7 @@ const CONFIG = {
                 "id": "tequila", 
                 "label": "Sinsimito Tequila", 
                 "emoji": "🍾", 
-                "img": "assets/tequila.png", // Uncomment and add path if you have images
+                "img": "assets/tequila.png", 
                 "value": { "standard": 630000, "hard": 690000 } 
             },
             { 
@@ -52,7 +53,6 @@ const CONFIG = {
                 "label": "Gold", 
                 "value": { "min": 328333, "max": 333333 }, 
                 "full_table_units": 1200, 
-                // Cumulative units taken per grab/click
                 "pickup_units": [100, 300, 400, 600, 800, 1000, 1200] 
             },
             { 
